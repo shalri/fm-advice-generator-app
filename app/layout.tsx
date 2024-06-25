@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"], weight: "800" });
 
 export const metadata: Metadata = {
   title: "次に(tsugini) | FScode",
@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col`}>
+      <body
+        className={`${manrope.className}  flex min-h-screen flex-col bg-ag-dark-blue`}
+      >
         {children}
       </body>
     </html>

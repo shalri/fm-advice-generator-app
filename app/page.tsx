@@ -1,16 +1,9 @@
-import Image from "next/image";
-import Header from "../components/Header";
-import SandBox from "../components/Sandbox";
-import Footer from "../components/Footer";
+import AdviceCard from "@/components/AdviceCard";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main className="flex flex-grow flex-col items-center justify-center p-24">
-        <SandBox />
-      </main>
-      <Footer />
-    </>
+    <main className="mt-32 flex flex-grow flex-col items-center px-5">
+      <AdviceCard />
+    </main>
   );
 }

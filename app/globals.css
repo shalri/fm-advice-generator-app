@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glow {
+  transition: box-shadow 0.3s ease-in-out;
+
+  /* Glow effect on hover */
+  &:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+  }
+  &:active {
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
+  }
+}

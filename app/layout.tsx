@@ -5,8 +5,9 @@ import "./globals.css";
 const manrope = Manrope({ subsets: ["latin"], weight: "800" });
 
 export const metadata: Metadata = {
-  title: "次に(tsugini) | FScode",
-  description: "A basic NextJS template for Frontend Mentor Challenges",
+  title: "Advice Generator App | FScode",
+  description:
+    "Solution for Advice Generator App challenge from Frontend Mentor",
 };
 
 export default function RootLayout({

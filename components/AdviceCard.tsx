@@ -74,7 +74,7 @@ export default function AdviceCard() {
       <h1 className="text-pretty text-[1.4rem] text-ag-light-cyan sm:text-[1.675rem]">
         <TypingText text={adviceData.advice || noAdvice} />
       </h1>
-      <div className="w-full bg-[url(/images/pattern-divider-mobile.svg)] bg-center bg-no-repeat py-10 sm:bg-[url(/images/pattern-divider-desktop.svg)] sm:py-12" />
+      <div className="w-full bg-[url(/fm-advice-generator-app/images/pattern-divider-mobile.svg)] bg-center bg-no-repeat py-10 sm:bg-[url(/fm-advice-generator-app/images/pattern-divider-desktop.svg)] sm:py-12" />
       <button
         onClick={callAPI}
         className="glow relative -mb-[32px] flex h-16 w-16 items-center justify-center rounded-full bg-ag-neon-green"

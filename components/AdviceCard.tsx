@@ -45,14 +45,14 @@ export default function AdviceCard() {
   }, []);
 
   return (
-    <article className="mx-5 flex w-full flex-col items-center justify-center rounded-lg bg-ag-dark-grayish-blue px-6 pt-10 text-center">
-      <p className="mb-6 text-xs font-bold uppercase text-ag-neon-green">
+    <article className="mx-5 flex w-full min-w-[300px] max-w-[545px] flex-col items-center justify-center rounded-lg bg-ag-dark-grayish-blue px-6 pt-10 text-center sm:px-[50px] sm:pt-[50px]">
+      <p className="mb-6 text-[0.65rem] uppercase tracking-[.20rem] text-ag-neon-green sm:text-xs">
         {adviceData.adviceId !== null ? `advice #${adviceData.adviceId}` : ""}
       </p>
-      <h1 className="text-[1.4rem] text-ag-light-cyan">
+      <h1 className="text-pretty text-[1.4rem] text-ag-light-cyan sm:text-[1.675rem]">
         &#8220;{adviceData.advice || noAdvice}&#8221;
       </h1>
-      <div className="mb-8 mt-6 h-6 w-full bg-[url(/images/pattern-divider-mobile.svg)] bg-center bg-no-repeat" />
+      <div className="mb-8 mt-6 h-6 w-full bg-[url(/images/pattern-divider-mobile.svg)] bg-center bg-no-repeat sm:my-10 sm:bg-[url(/images/pattern-divider-desktop.svg)]" />
       <button
         onClick={callAPI}
         className="relative -mb-[32px] flex h-16 w-16 items-center justify-center rounded-full bg-ag-neon-green"

@@ -18,7 +18,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: (https://github.com/shalri/fm-advice-generator-app/)
-- Live Site URL: (https://shalri.github.io/fm-advice-generator-app//)
+- Live Site URL: (https://shalri.github.io/fm-advice-generator-app/)
 
 ## My process
 
